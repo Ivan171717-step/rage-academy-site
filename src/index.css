@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply m-0 bg-rage-black text-zinc-100 antialiased;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.bg-rage-gradient {
+  background:
+    radial-gradient(circle at 20% 0%, rgba(163, 13, 25, 0.35), transparent 45%),
+    radial-gradient(circle at 80% 40%, rgba(110, 10, 18, 0.28), transparent 50%),
+    linear-gradient(180deg, #0b0b0c 0%, #090909 100%);
+}
